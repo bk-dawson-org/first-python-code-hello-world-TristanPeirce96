@@ -1,0 +1,5 @@
+print("What is the temperature you would like to convert to Fahrenhait?")
+print("Entre temperature in degrees Celcius below: ")
+celcius = float(input())
+fahrenhait = (((9/5)*(celcius))+32)
+print(celcius,"degrees Celcius is",fahrenhait,"degrees Fahrenhait. Have a nice day.")
